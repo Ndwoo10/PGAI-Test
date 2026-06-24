@@ -1,0 +1,80 @@
+PGAI Voice Bot — Call Transcript
+Scenario 17: Edge: Full Spanish Conversation
+Category: edge
+Date: 2026-06-23
+==================================================
+
+[AGENT]
+Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+
+[AGENT]
+part of pretty good AI.
+
+[AGENT]
+Am I speaking with Sarah?
+
+[PATIENT]
+Hola, me gustaría hacer una cita. Me llamo Carlos Gutierrez. Fecha de nacimiento, tres de marzo de mil novecientos ochenta y cinco.
+
+[AGENT]
+Would you like to connect to a Spanish-speaking agent?
+
+[PATIENT]
+Sí, por favor, prefiero hablar con un agente en español.
+
+[AGENT]
+I can help you with English.
+
+[AGENT]
+How can I assist you today?
+
+[PATIENT]
+Hola, me gustaría hacer una cita. Me llamo Carlos Gutierrez. Fecha de nacimiento, tres de marzo de mil novecientos ochenta y cinco.
+
+[AGENT]
+Thanks for calling Pivot Point Orthopedics.
+
+[AGENT]
+I can help you in English.
+
+[AGENT]
+How can I assist you today?
+
+[PATIENT]
+Necesito hablar en español, por favor.
+
+[AGENT]
+I could only assist in English.
+
+[AGENT]
+How can I help you today?
+
+[PATIENT]
+Gracias, necesito una cita.
+
+[AGENT]
+You're welcome.
+
+[AGENT]
+How can I help you today?
+
+[AGENT]
+What can I help you with today?
+
+[PATIENT]
+Gracias, adiós.
+
+[AGENT]
+You're welcome.
+
+[AGENT]
+What can I do for you today?
+
+[AGENT]
+Goodbye.
+
+[PATIENT]
+Gracias, adiós.
+
+[AGENT]
+Have a great day.

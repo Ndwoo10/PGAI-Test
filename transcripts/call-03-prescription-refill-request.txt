@@ -1,0 +1,86 @@
+PGAI Voice Bot — Call Transcript
+Scenario 03: Prescription Refill Request
+Category: functional
+Date: 2026-06-23
+==================================================
+
+[AGENT]
+Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+
+[AGENT]
+Thanks for calling Pivot Point Orthopedics.
+
+[AGENT]
+part of pretty good AI.
+
+[PATIENT]
+Hi, my name is Michael Torres.
+
+[AGENT]
+Am I speaking with Sarah?
+
+[PATIENT]
+No, this is Michael Torres. I'm a patient calling to request a refill on my medication.
+
+[AGENT]
+Please provide your date of birth.
+
+[PATIENT]
+Of course. My date of birth is August 10th, 1973.
+
+[AGENT]
+Just to confirm, I have your name as Michael Torres and your date of birth as August 10, 1973.
+
+[AGENT]
+Is that correct?
+
+[AGENT]
+If so, could you please spell your first and last name for me?
+
+[PATIENT]
+Sure. First name: Michael, M-I-C-H-A-E-L. Last name: Torres, T-O-R-R-E-S.
+
+[AGENT]
+Would you like to use your phone number to help look up your record?
+
+[AGENT]
+If so, please provide the number you have on file with us.
+
+[PATIENT]
+I've got it. My phone number on file is 618-555-0512.
+
+[AGENT]
+I have your phone number as 618...
+
+[AGENT]
+555-0512
+
+[AGENT]
+and your date of birth.
+
+[PATIENT]
+My date of birth is August 10th, 1973.
+
+[AGENT]
+I can't proceed further right now, but I can make sure our clinic support team follows up with you.
+
+[AGENT]
+Please hold while I connect you to our patient support team.
+
+[AGENT]
+Connecting you to a representative.
+
+[PATIENT]
+Alright, I'll hold. Thanks again.
+
+[AGENT]
+Please wait.
+
+[AGENT]
+Goodbye.
+
+[AGENT]
+Hello, you've reached the Pretty Good AI test line.
+
+[PATIENT]
+Goodbye, and thank you for your help.

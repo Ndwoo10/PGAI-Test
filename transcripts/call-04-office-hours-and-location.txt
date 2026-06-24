@@ -1,0 +1,68 @@
+PGAI Voice Bot — Call Transcript
+Scenario 04: Office Hours and Location
+Category: functional
+Date: 2026-06-23
+==================================================
+
+[AGENT]
+Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+
+[AGENT]
+Thanks for calling Pivot Point Orthopedics.
+
+[AGENT]
+part of pretty good AI.
+
+[AGENT]
+Am I speaking with Sarah?
+
+[PATIENT]
+Oh, hi, I'm actually Emily Chen. I'm a new potential patient. Could you tell me your office hours?
+
+[AGENT]
+Sure.
+
+[AGENT]
+Pivot Point Orthopedics is open Monday, Tuesday, and Thursday from 9 a.m. to 4 p.m.
+
+[AGENT]
+Wednesday from 12 p.m. to 7 p.m.
+
+[AGENT]
+and Friday from 9 a.m. to 12 p.m.
+
+[AGENT]
+How else can I help you today?
+
+[PATIENT]
+Thanks for that. Now, could you let me know the exact address of your office?
+
+[AGENT]
+Our office is at 1234 Recovery Way, Suite 200, Austin.
+
+[AGENT]
+Is there anything else you'd like to know?
+
+[PATIENT]
+Yes, one more thing—do you take walk-ins, or is it appointment only?
+
+[AGENT]
+We see patients by appointment only.
+
+[AGENT]
+Would you like to schedule a visit?
+
+[PATIENT]
+Thank you, that's all I needed. I really appreciate your help. Goodbye!
+
+[AGENT]
+You're welcome
+
+[AGENT]
+Have a great day.
+
+[PATIENT]
+Goodbye! Take care!
+
+[AGENT]
+Goodbye.
