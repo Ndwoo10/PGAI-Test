@@ -1,0 +1,28 @@
+PGAI Voice Bot — Call Transcript
+Scenario 01: Simple Appointment Scheduling
+Category: functional
+Date: 2026-06-23 19:40:38
+Call SID: CA044cdae1b0b9387d6ab08d7795fccf14
+==================================================
+
+[Patient (Bot)]
+Hi, I'd like to schedule an appointment, please.
+
+[PGAI Agent]
+Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+
+[Patient (Bot)]
+Hi,
+
+[PGAI Agent]
+Thanks for calling Pivot Point Orthopedics.
+
+[PGAI Agent]
+part of pretty good AI.
+
+[Patient (Bot)]
+Yes, this is Sarah Mitchell.
+
+[PGAI Agent]
+Am I speaking with Sarah?
+
