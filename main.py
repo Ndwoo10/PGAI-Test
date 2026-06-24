@@ -38,6 +38,7 @@ PGAI_TEST_NUMBER = "+18054398008"
 SYSTEM_MESSAGE = ""
 SCENARIO_ID = "01"
 SCENARIO_NAME = ""
+SCENARIO_CATEGORY = ""
 CALL_SID = None
 TRANSCRIPT = []
 TURN_COUNTER = 0
@@ -76,7 +77,18 @@ if not scenario:
 
 SCENARIO_ID = args.scenario
 SCENARIO_NAME = scenario["name"]
-SYSTEM_MESSAGE = scenario["system_message"]
+SCENARIO_CATEGORY = scenario.get("category", "unknown")
+
+# Force English on all scenarios EXCEPT the Spanish test (17)
+if SCENARIO_ID == "17":
+    SYSTEM_MESSAGE = scenario["system_message"]
+else:
+    SYSTEM_MESSAGE = (
+        "IMPORTANT: You MUST always respond in English regardless of what "
+        "language you hear. Even if you hear Spanish or any other language, "
+        "always reply in English.\n\n"
+        + scenario["system_message"]
+    )
 
 # Now validate environment (only needed if we're making a call)
 missing = []
@@ -256,12 +268,18 @@ def save_transcript():
 
     Path("transcripts").mkdir(exist_ok=True)
 
+    # Clean scenario name for filename
+    safe_name = SCENARIO_NAME.lower()
+    for char in [":", "/", "—", "+", "'", '"']:
+        safe_name = safe_name.replace(char, "")
+    safe_name = safe_name.replace(" ", "-").replace("--", "-").strip("-")
+
     # Text file for human reading
-    txt_file = f"transcripts/call-{SCENARIO_ID}-{SCENARIO_NAME.lower().replace(' ', '-').replace(':', '').replace('/', '-')}.txt"
+    txt_file = f"transcripts/call-{SCENARIO_ID}-{safe_name}.txt"
     with open(txt_file, "w", encoding="utf-8") as f:
         f.write(f"PGAI Voice Bot — Call Transcript\n")
         f.write(f"Scenario {SCENARIO_ID}: {SCENARIO_NAME}\n")
-        f.write(f"Category: {scenario.get('category', 'unknown')}\n")
+        f.write(f"Category: {SCENARIO_CATEGORY}\n")
         f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"Call SID: {CALL_SID}\n")
         f.write(f"{'=' * 50}\n\n")
@@ -275,7 +293,7 @@ def save_transcript():
         json.dump({
             "scenario_id": SCENARIO_ID,
             "scenario_name": SCENARIO_NAME,
-            "category": scenario.get("category", "unknown"),
+            "category": SCENARIO_CATEGORY,
             "call_sid": CALL_SID,
             "timestamp": datetime.now().isoformat(),
             "conversation": TRANSCRIPT,
